@@ -3,12 +3,12 @@
 @inject IHttpClientFactory ClientFactory
 
 
-<PageTitle>Viktor Edén</PageTitle>
+<PageTitle>Andreas Larsen</PageTitle>
 
 <MudGrid Class="title" Justify="Justify.SpaceBetween">
     <MudItem xs="8">
         <Animation Effect="@Effect.BounceInLeft" Speed="@TimeSpan.FromMilliseconds(1000)" Delay="@TimeSpan.FromMilliseconds(10)">
-            <MudText Class="TitleH1" Typo="Typo.h1" GutterBottom="true">VIKTOR</MudText>
+            <MudText Class="TitleH1" Typo="Typo.h1" GutterBottom="true">ANDREAS</MudText>
         </Animation>
     </MudItem>
     <MudItem>
@@ -24,7 +24,7 @@
     </MudItem>
     <MudItem>
         <Animation Effect="@Effect.BounceInRight" Speed="@TimeSpan.FromMilliseconds(1250)" Delay="@TimeSpan.FromMilliseconds(10)">
-            <MudText Class="TitleH1" Typo="Typo.h1" Align="Align.Right" GutterBottom="true">EDÉN</MudText>
+            <MudText Class="TitleH1" Typo="Typo.h1" Align="Align.Right" GutterBottom="true">LARSEN</MudText>
         </Animation>
     </MudItem>
 </MudGrid>
@@ -33,8 +33,6 @@
 <MudPaper Class="siteBlock" Elevation="3">
     <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center">
 
-        <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "linkedInButton"}})" Href="https://www.linkedin.com/in/viktor-ed%C3%A9n-52b12626b/" Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary"/>
-        <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "githubButton"}})" Href="https://github.com/HolyAcorn" Icon="@Icons.Custom.Brands.GitHub" Color="Color.Primary"/>
     </MudStack>
 </MudPaper>
 
@@ -50,42 +48,29 @@
     </MudDataGrid>
 </MudPaper>
 
-
-<MudPaper Class="siteBlock" Style="margin-top: 4rem;" Elevation="3">
+<div class="my-5">
+<MudPaper Class="siteBlock" Elevation="3">
     <MudText Typo="Typo.h5">Projekt</MudText>
-
-    <MudContainer Style="margin-top: 2rem;">
-
-        <MudGrid Justify="Justify.Center">
-            @foreach (Project project in _projects)
-            {
-                <ProjectCard Project="@project"/>
-            }
-        </MudGrid>
-    </MudContainer>
+    <MudSpacer />
+    <MudDataGrid Items="@_projects" Dense="true" Breakpoint="Breakpoint.None">
+        <Columns>
+            <PropertyColumn Property="x => x.Name" />
+            <PropertyColumn Property="x => x.Type" Title="Type" />
+            <PropertyColumn Property="x => x.Description" Title="Beskrivning" />
+        </Columns>
+    </MudDataGrid>
 </MudPaper>
+    
+</div>
 
 
-<MudPaper Class="siteBlock" Style="margin-top: 4rem;" Elevation="3">
-    <MudStack>
 
-        <MudText Typo="Typo.h5">Web API Produkter</MudText>
-        <MudText>Här kan du se produkter från webb API-projektet jag gjorde</MudText>
-        <MudDataGrid Items="@_products" Dense="true" Breakpoint="Breakpoint.None">
-            <Columns>
-                <PropertyColumn Property="p => p.ProductName"/>
-                <PropertyColumn Property="p => p.Stock"/>
-                <PropertyColumn Property="p => p.PriceSEK"/>
-            </Columns>
-        </MudDataGrid>
-    </MudStack>
-</MudPaper>
 
 @code
 {
     private IEnumerable<Competency> _competencies = new List<Competency>();
     private IEnumerable<Project> _projects = new List<Project>();
-    private IEnumerable<Product> _products = new List<Product>();
+    
 
     protected override async Task OnInitializedAsync()
     {
@@ -96,12 +81,7 @@
 
         _projects = projects.OrderBy(p => p.StartYear).Reverse();
         
-        client = ClientFactory.CreateClient("ProductsAPI");
-
-        _products = await client.GetFromJsonAsync<List<Product>>("api/products");
     }
 
-    record Product(string Id, string ProductName, int Stock, double PriceSEK, double PriceUSD, double PriceEUR);
-    
 
 }

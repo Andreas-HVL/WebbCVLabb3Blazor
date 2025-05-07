@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>V:\cSharp\ITHS\Webbutveckling\Labb 3\CvBlazorSite\CvBlazorSite\Properties\PublishProfiles\Labb3-CV-Website - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Hijaker\OneDrive\Documents\GitHub\ITHS-Webbutveckling-Labb3-Blazor\CvBlazorSite\Properties\PublishProfiles\CVlabbblazor - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

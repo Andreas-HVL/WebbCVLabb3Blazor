@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvBlazorSite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+663a1a4a6dcb2b3ecf4819e3902874b9ecdc82e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c3a6f0a2b3db889aa1041973daaa8292ad516e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CvBlazorSite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvBlazorSite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

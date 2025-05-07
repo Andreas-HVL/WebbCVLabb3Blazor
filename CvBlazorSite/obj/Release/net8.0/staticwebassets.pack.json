@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "PackagePath": "staticwebassets\\img\\C Sharp logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "PackagePath": "staticwebassets\\img\\blazor-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "PackagePath": "staticwebassets\\img\\html.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.CvBlazorSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.CvBlazorSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.CvBlazorSite.props",
+      "PackagePath": "build\\CvBlazorSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CvBlazorSite.props",
+      "PackagePath": "buildMultiTargeting\\CvBlazorSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.CvBlazorSite.props",
+      "PackagePath": "buildTransitive\\CvBlazorSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
