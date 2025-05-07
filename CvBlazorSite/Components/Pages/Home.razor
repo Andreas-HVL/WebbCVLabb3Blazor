@@ -1,0 +1,107 @@
+﻿@page "/"
+@using CvBlazorSite.Models
+@inject IHttpClientFactory ClientFactory
+
+
+<PageTitle>Viktor Edén</PageTitle>
+
+<MudGrid Class="title" Justify="Justify.SpaceBetween">
+    <MudItem xs="8">
+        <Animation Effect="@Effect.BounceInLeft" Speed="@TimeSpan.FromMilliseconds(1000)" Delay="@TimeSpan.FromMilliseconds(10)">
+            <MudText Class="TitleH1" Typo="Typo.h1" GutterBottom="true">VIKTOR</MudText>
+        </Animation>
+    </MudItem>
+    <MudItem>
+        <Animation Effect="@Effect.FadeInUp" Speed="@TimeSpan.FromMilliseconds(1500)" Delay="@TimeSpan.FromMilliseconds(750)">
+            <MudText Class="TitleH2" Color="Color.Secondary" Typo="Typo.h2" Align="Align.Right" GutterBottom="true">DEVOPS</MudText>
+        </Animation>
+    </MudItem>
+
+    <MudItem>
+        <Animation Effect="@Effect.FadeInDown" Speed="@TimeSpan.FromMilliseconds(1750)" Delay="@TimeSpan.FromMilliseconds(750)">
+            <MudText Class="TitleH2" Color="Color.Secondary" Typo="Typo.h2" GutterBottom="true">ENGINEER</MudText>
+        </Animation>
+    </MudItem>
+    <MudItem>
+        <Animation Effect="@Effect.BounceInRight" Speed="@TimeSpan.FromMilliseconds(1250)" Delay="@TimeSpan.FromMilliseconds(10)">
+            <MudText Class="TitleH1" Typo="Typo.h1" Align="Align.Right" GutterBottom="true">EDÉN</MudText>
+        </Animation>
+    </MudItem>
+</MudGrid>
+
+
+<MudPaper Class="siteBlock" Elevation="3">
+    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center">
+
+        <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "linkedInButton"}})" Href="https://www.linkedin.com/in/viktor-ed%C3%A9n-52b12626b/" Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary"/>
+        <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "githubButton"}})" Href="https://github.com/HolyAcorn" Icon="@Icons.Custom.Brands.GitHub" Color="Color.Primary"/>
+    </MudStack>
+</MudPaper>
+
+<MudPaper Class="siteBlock" Elevation="3">
+    <MudText Typo="Typo.h5">Skills</MudText>
+    <MudSpacer/>
+    <MudDataGrid Items="@_competencies" Dense="true" Breakpoint="Breakpoint.None">
+        <Columns>
+            <PropertyColumn Property="x => x.Name"/>
+            <PropertyColumn Property="x => x.YearsOfExperience" Title="Antal år"/>
+            <PropertyColumn Property="x => x.CompetencyLevel" Title="Nivå"/>
+        </Columns>
+    </MudDataGrid>
+</MudPaper>
+
+
+<MudPaper Class="siteBlock" Style="margin-top: 4rem;" Elevation="3">
+    <MudText Typo="Typo.h5">Projekt</MudText>
+
+    <MudContainer Style="margin-top: 2rem;">
+
+        <MudGrid Justify="Justify.Center">
+            @foreach (Project project in _projects)
+            {
+                <ProjectCard Project="@project"/>
+            }
+        </MudGrid>
+    </MudContainer>
+</MudPaper>
+
+
+<MudPaper Class="siteBlock" Style="margin-top: 4rem;" Elevation="3">
+    <MudStack>
+
+        <MudText Typo="Typo.h5">Web API Produkter</MudText>
+        <MudText>Här kan du se produkter från webb API-projektet jag gjorde</MudText>
+        <MudDataGrid Items="@_products" Dense="true" Breakpoint="Breakpoint.None">
+            <Columns>
+                <PropertyColumn Property="p => p.ProductName"/>
+                <PropertyColumn Property="p => p.Stock"/>
+                <PropertyColumn Property="p => p.PriceSEK"/>
+            </Columns>
+        </MudDataGrid>
+    </MudStack>
+</MudPaper>
+
+@code
+{
+    private IEnumerable<Competency> _competencies = new List<Competency>();
+    private IEnumerable<Project> _projects = new List<Project>();
+    private IEnumerable<Product> _products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = ClientFactory.CreateClient("CvAPI");
+        _competencies = await client.GetFromJsonAsync<List<Competency>>("api/competencies");
+        var projects = await client.GetFromJsonAsync<List<Project>>("api/projects");
+
+
+        _projects = projects.OrderBy(p => p.StartYear).Reverse();
+        
+        client = ClientFactory.CreateClient("ProductsAPI");
+
+        _products = await client.GetFromJsonAsync<List<Product>>("api/products");
+    }
+
+    record Product(string Id, string ProductName, int Stock, double PriceSEK, double PriceUSD, double PriceEUR);
+    
+
+}

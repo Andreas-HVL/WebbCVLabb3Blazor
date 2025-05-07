@@ -1,0 +1,50 @@
+﻿@using CvBlazorSite.Models
+@inject IHttpClientFactory ClientFactory
+
+<MudDialog>
+    <DialogContent>
+        <MudForm Model="@model" @ref="@form" @bind-IsValid="@success">
+            <MudCard>
+                <MudCardContent>
+                    <MudTextField Label="Kompetensnamn" @bind-value="model.Name" For="(() => model.Name)" Required="true" RequiredError="Kompetensnamn krävs"/>
+                    <MudRadioGroup @bind-Value="model.CompetencyLevel" Required="true" RequiredError="Kompetensnivå krävs">
+                        <MudRadio Value="@("Junior")" Color="Color.Primary">Junior</MudRadio>
+                        <MudRadio Value="@("Mid")" Color="Color.Secondary">Mid</MudRadio>
+                        <MudRadio Value="@("Senior")" Color="Color.Tertiary">Senior</MudRadio>
+                    </MudRadioGroup>
+                    <MudTextField Label="Antal års erfarenhet" InputType="InputType.Number" @bind-value="model.YearsOfExperience" For="(() => model.YearsOfExperience)" Required="true" RequiredError="Antal år krävs"/>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "addSkillDialogButton"}})" OnClick="async () => await Submit()" Disabled="@(!success)" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Lägg till</MudButton>
+                    <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "cancelSkillDialogButton"}})" OnClick="Cancel" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Avbryt</MudButton>
+                    
+                </MudCardActions>
+            </MudCard>
+        </MudForm>
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+        
+    
+    private Competency model = new Competency();
+    private bool success;
+
+    MudForm form;
+    
+    private async Task Submit()
+    {
+        await form.Validate();
+
+        if (form.IsValid)
+        {
+            var client = ClientFactory.CreateClient("CvAPI");
+            var response = client.PostAsJsonAsync<Competency>($"api/competency", model);
+            MudDialog.Close(DialogResult.Ok(true));
+        }
+    }
+    private void Cancel() => MudDialog.Cancel();
+
+}

@@ -1,0 +1,50 @@
+﻿@using CvBlazorSite.Models
+@inject IHttpClientFactory ClientFactory
+
+<MudDialog>
+    <DialogContent>
+        <MudForm Model="@model" @ref="@form" @bind-IsValid="@success">
+            <MudCard>
+                <MudCardContent>
+                    <MudTextField Label="Projektnamn" @bind-Value="model.Name" For="(() => model.Name)" Required="true" RequiredError="Projektnamn krävs"/>
+                    <MudTextField Label="Beskrivning" @bind-Value="model.Description" Lines="3" For="(() => model.Description)" Required="true" RequiredError="Beskrivning krävs"/>
+                    <MudTextField Label="Projekttyp" @bind-Value="model.Type" For="(() => model.Type)" Required="true" RequiredError="Typ krävs"/>
+                    <MudTextField Label="Url" @bind-Value="model.Url"  For="(() => model.Url)" InputType="InputType.Url" Required="true" RequiredError="Url krävs"/>
+                    <MudTextField Label="Startår" @bind-Value="model.StartYear" For="(() => model.StartYear)" InputType="InputType.Number" Required="true" RequiredError="Startår krävs"/>
+                    <MudTextField Label="Slutår" @bind-Value="model.EndYear" For="(() => model.EndYear)" InputType="InputType.Number" Required="true" RequiredError="Slutår krävs"/>
+                    <MudCheckBox Label="Avslutad" @bind-Value="model.Completed"/>
+                    
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "addProjectDialogButton"}})" OnClick="async () => await Submit()" Disabled="@(!success)" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Lägg till</MudButton>
+                    <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "cancelProjectDialogButton"}})" OnClick="Cancel" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Avbryt</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudForm>
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+    
+    
+    private Project model = new Project();
+    private bool success;
+
+    MudForm form;
+    
+    private async Task Submit()
+    {
+        await form.Validate();
+
+        if (form.IsValid)
+        {
+            var client = ClientFactory.CreateClient("CvAPI");
+            var response = client.PostAsJsonAsync<Project>($"api/project", model);
+            MudDialog.Close(DialogResult.Ok(true));
+        }
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+}

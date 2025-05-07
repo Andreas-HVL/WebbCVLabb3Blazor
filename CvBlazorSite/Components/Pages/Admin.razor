@@ -1,0 +1,168 @@
+﻿@page "/Admin"
+@using System.Collections.ObjectModel
+@using CvBlazorSite.Models
+@using Microsoft.AspNetCore.Authorization
+@using System.ComponentModel.DataAnnotations
+@inject IHttpClientFactory ClientFactory
+@inject IDialogService DialogService
+
+
+
+@attribute [Authorize(Roles = "Admin")]
+
+
+<MudStack Row="true">
+    <MudButton Color="Color.Primary" Href="#">Back</MudButton>
+</MudStack>
+
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid>
+        <MudItem xs="12" sm="6">
+            <MudPaper Elevation="2" Class="pa-4">
+                <MudDataGrid Dense="true" Breakpoint="Breakpoint.None" T="Project" Items="@_projects" EditMode="DataGridEditMode.Form" CommittedItemChanges="@CommitedEditingProjectItem"
+                             EditTrigger="DataGridEditTrigger.Manual" ReadOnly="false">
+                    <ToolBarContent>
+                        <MudText Style="margin-right: 1rem" Typo="Typo.h4">Projekt</MudText>
+                        <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "addProjectButton"}})" @onclick="OpenProjectAddDialogAsync" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small">Lägg till Projekt</MudButton>
+                    </ToolBarContent>
+                    <Columns>
+                        <PropertyColumn Property="p => p.Id" />
+                        <PropertyColumn Property="p => p.Name" Title="Namn"/>
+                        <PropertyColumn Property="p => p.Description" Title="Beskrivning"/>
+                        <PropertyColumn Property="p => p.Type" Title="Typ"/>
+                        <PropertyColumn Property="p => p.Url"/>
+                        <TemplateColumn >
+                            <CellTemplate>
+                                <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "removeProjectButton_" + context.Item.Id}})" OnClick="() => RemoveProjectItem(context.Item)" Size="Size.Small" Icon="@Icons.Material.Outlined.Remove" Variant="Variant.Outlined"/>
+                                <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "editProjectButton_" + context.Item.Id}})" OnClick="@context.Actions.StartEditingItemAsync" Size="Size.Small" Icon="@Icons.Material.Outlined.Draw" Variant="Variant.Outlined"/>
+                            </CellTemplate>
+                        </TemplateColumn>
+                    </Columns>
+                </MudDataGrid>
+            </MudPaper>
+        </MudItem>
+        
+        <MudItem xs="12" sm="6">
+            <MudPaper Elevation="2" Class="pa-4">
+                <MudDataGrid Dense="true" Breakpoint="Breakpoint.None" T="Competency" Items="@_competencies" EditMode="DataGridEditMode.Form" CommittedItemChanges="@CommitedEditingCompetencyItem"
+                             EditTrigger="DataGridEditTrigger.Manual" ReadOnly="false">
+                    <ToolBarContent>
+                        <MudText Style="margin-right: 1rem" Typo="Typo.h4">Skills</MudText>
+                        <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "addSkillButton"}})" @onclick="OpenCompetencyAddDialogAsync" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small">Lägg till Skill</MudButton>
+                    </ToolBarContent>
+                    <Columns>
+                        <PropertyColumn Property="p => p.Id"/>
+                        <PropertyColumn Property="p => p.Name" Title="Namn"/>
+                        <PropertyColumn Property="p => p.CompetencyLevel" Title="Nivå"/>
+                        <PropertyColumn Property="p => p.YearsOfExperience" Title="År"/>
+                        <TemplateColumn >
+                            <CellTemplate>
+                                <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "removeSkillButton_" + context.Item.Id}})" OnClick="() => RemoveCompetencyItem(context.Item)" Size="Size.Small" Icon="@Icons.Material.Outlined.Remove" Variant="Variant.Outlined"/>
+                                <MudIconButton UserAttributes="@(new Dictionary<string, object?>{{"id", "editSkillButton_" + context.Item.Id}})" OnClick="@context.Actions.StartEditingItemAsync" Size="Size.Small" Icon="@Icons.Material.Outlined.Draw" Variant="Variant.Outlined"/>
+                            </CellTemplate>
+                        </TemplateColumn>
+                    </Columns>
+                </MudDataGrid>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+<AddProjectDialog/>
+<AddCompetencyDialog/>
+<RemoveItemDialog/>
+
+
+@code {
+    private ObservableCollection<Competency> _competencies = new ObservableCollection<Competency>();
+    private ObservableCollection<Project> _projects = new ObservableCollection<Project>();
+
+
+    private Project newProject = new Project();
+
+    private Competency newCompetency = new Competency();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCompetenciesAsync();
+        await LoadProjectsAsync();
+    }
+
+    private async Task RemoveProjectItem(Project project)
+    {
+        var parameters = new DialogParameters<RemoveItemDialog> {{x => x.Name, project.Name}};
+        var dialog = await DialogService.ShowAsync<RemoveItemDialog>($"Är du säker på att du vill ta bort projektet {project.Name}");
+        var result = await dialog.Result;
+
+        if (result.Canceled) return;
+        var client = ClientFactory.CreateClient("CvAPI");
+        var respone = await client.DeleteAsync($"api/project/{project.Id}");
+        await LoadProjectsAsync();
+    }
+
+
+    void CommitedEditingProjectItem(Project project)
+    {
+        var task = Task.Run(async () => await SendProjectPutRequestAsync(project));
+    }
+
+    async Task SendProjectPutRequestAsync(Project project)
+    {
+        var client = ClientFactory.CreateClient("CvAPI");
+        var response = await client.PutAsJsonAsync<Project>($"api/project/{project.Id}", project);
+    }
+
+    private async Task OpenProjectAddDialogAsync()
+    {
+        var dialog = await DialogService.ShowAsync<AddProjectDialog>("Lägg till projekt");
+        var result = await dialog.Result;
+        await LoadProjectsAsync();
+    }
+    
+    private async Task LoadProjectsAsync()
+    {
+        var client = ClientFactory.CreateClient("CvAPI");
+        _projects = await client.GetFromJsonAsync<ObservableCollection<Project>>("api/projects");
+    }
+
+    
+
+    private async Task LoadCompetenciesAsync()
+    {
+        var client = ClientFactory.CreateClient("CvAPI");
+        _competencies = await client.GetFromJsonAsync<ObservableCollection<Competency>>("api/competencies");
+    }
+
+    private async Task RemoveCompetencyItem(Competency competency)
+    {
+        var parameters = new DialogParameters<RemoveItemDialog> {{x => x.Name, competency.Name}};
+        var dialog = await DialogService.ShowAsync<RemoveItemDialog>($"Är du säker på att du vill ta bort projektet {competency.Name}");
+        var result = await dialog.Result;
+
+        if (result.Canceled) return;
+        var client = ClientFactory.CreateClient("CvAPI");
+        var respone = await client.DeleteAsync($"api/competency/{competency.Id}");
+        await LoadCompetenciesAsync();
+    }
+
+    void CommitedEditingCompetencyItem(Competency competency)
+    {
+        var task = Task.Run(async () => await SendCompetencyPutRequestAsync(competency));
+    }
+
+    async Task SendCompetencyPutRequestAsync(Competency competency)
+    {
+        var client = ClientFactory.CreateClient("CvAPI");
+        var response = await client.PutAsJsonAsync<Competency>($"api/competency/{competency.Id}", competency);
+    }
+
+    private async Task OpenCompetencyAddDialogAsync()
+    {
+        var dialog = await DialogService.ShowAsync<AddCompetencyDialog>("Lägg till Kompetens");
+        var result = await dialog.Result;
+        await LoadCompetenciesAsync();
+    }
+
+
+
+}

@@ -1,0 +1,24 @@
+﻿<MudDialog>
+    <TitleContent>
+        Ta bort
+    </TitleContent>
+    <DialogContent>
+        Är du säker på att du vill ta bort @Name?
+    </DialogContent>
+    <DialogActions>
+        <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "cancelButton"}})" OnClick="Cancel">Avbryt</MudButton>
+        <MudButton UserAttributes="@(new Dictionary<string, object?>{{"id", "removeItemDialogButton"}})" Color="Color.Primary" OnClick="Submit">Ok</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+    [Parameter]
+    public string Name { get; set; }
+    
+    private void Submit() => MudDialog.Close(DialogResult.Ok(true));
+
+    private void Cancel() => MudDialog.Cancel();
+}

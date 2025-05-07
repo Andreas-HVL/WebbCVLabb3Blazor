@@ -1,0 +1,1033 @@
+{
+  "Version": 1,
+  "Hash": "n0GvVrL5m5V07ROY5Q1fMzeb2tPSgGZKRXYk94Y7I84=",
+  "Source": "CvBlazorSite",
+  "BasePath": "_content/CvBlazorSite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CvBlazorSite\\wwwroot",
+      "Source": "CvBlazorSite",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
+      "SourceId": "BlazorAnimation",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorAnimation",
+      "RelativePath": "animate.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tr0vekc9vq",
+      "Integrity": "qbO919CAYK4kRxWDRW3CehclkGcaxvcdMilLG4sKVe8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css"
+    },
+    {
+      "Identity": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
+      "SourceId": "BlazorAnimation",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorAnimation",
+      "RelativePath": "blazorAnimationInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u2iywg3ol2",
+      "Integrity": "+t/o5a1+4WbQxhoZypQHhvyATOlNrCBf5wRvVZ3/lrU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "SourceId": "Extensions.MudBlazor.StaticInput",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\",
+      "BasePath": "_content/Extensions.MudBlazor.StaticInput",
+      "RelativePath": "NavigationObserver.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpcwdwqsg2",
+      "Integrity": "rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js"
+    },
+    {
+      "Identity": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzoc4abpk8",
+      "Integrity": "geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzmkn5vn8t",
+      "Integrity": "ofOHqWMS4MGNCydlJgNHokeKCDFzeRzNL/Ilq9sm+TE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2jeq8efc6q",
+      "Integrity": "8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "img/blazor-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ktvuh5jcvm",
+      "Integrity": "aO5QHBE8NFfjFGhZ7fFWs4GqzYpOaUiwEVzp3Gmukqo=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blazor-logo.png"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "img/C Sharp logo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z7475iq4mv",
+      "Integrity": "H14XmdT58fICDgoAu/te5b7c4/MhDOSMsaDzvTUT2Ho=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\C Sharp logo.svg"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "img/Godot_icon.svg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q9me1j3371",
+      "Integrity": "wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Godot_icon.svg.png"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "img/html#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jziny2oo4h",
+      "Integrity": "IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\html.png"
+    },
+    {
+      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
+      "SourceId": "CvBlazorSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "BasePath": "_content/CvBlazorSite",
+      "RelativePath": "img/unity#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f3bx447a76",
+      "Integrity": "a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\unity.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/BlazorAnimation/animate.css",
+      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qbO919CAYK4kRxWDRW3CehclkGcaxvcdMilLG4sKVe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Dec 2021 07:57:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbO919CAYK4kRxWDRW3CehclkGcaxvcdMilLG4sKVe8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/BlazorAnimation/blazorAnimationInterop.js",
+      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+t/o5a1+4WbQxhoZypQHhvyATOlNrCBf5wRvVZ3/lrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jan 2023 09:32:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+t/o5a1+4WbQxhoZypQHhvyATOlNrCBf5wRvVZ3/lrU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
+      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 18:52:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 17:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 17:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofOHqWMS4MGNCydlJgNHokeKCDFzeRzNL/Ilq9sm+TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofOHqWMS4MGNCydlJgNHokeKCDFzeRzNL/Ilq9sm+TE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.jzmkn5vn8t.css",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofOHqWMS4MGNCydlJgNHokeKCDFzeRzNL/Ilq9sm+TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzmkn5vn8t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofOHqWMS4MGNCydlJgNHokeKCDFzeRzNL/Ilq9sm+TE="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.2jeq8efc6q.ico",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 14:04:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jeq8efc6q"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 14:04:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
+    },
+    {
+      "Route": "img/blazor-logo.ktvuh5jcvm.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aO5QHBE8NFfjFGhZ7fFWs4GqzYpOaUiwEVzp3Gmukqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ktvuh5jcvm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blazor-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO5QHBE8NFfjFGhZ7fFWs4GqzYpOaUiwEVzp3Gmukqo="
+        }
+      ]
+    },
+    {
+      "Route": "img/blazor-logo.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aO5QHBE8NFfjFGhZ7fFWs4GqzYpOaUiwEVzp3Gmukqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO5QHBE8NFfjFGhZ7fFWs4GqzYpOaUiwEVzp3Gmukqo="
+        }
+      ]
+    },
+    {
+      "Route": "img/C Sharp logo.svg",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H14XmdT58fICDgoAu/te5b7c4/MhDOSMsaDzvTUT2Ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Feb 2023 13:58:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H14XmdT58fICDgoAu/te5b7c4/MhDOSMsaDzvTUT2Ho="
+        }
+      ]
+    },
+    {
+      "Route": "img/C Sharp logo.z7475iq4mv.svg",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H14XmdT58fICDgoAu/te5b7c4/MhDOSMsaDzvTUT2Ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Feb 2023 13:58:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z7475iq4mv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/C Sharp logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H14XmdT58fICDgoAu/te5b7c4/MhDOSMsaDzvTUT2Ho="
+        }
+      ]
+    },
+    {
+      "Route": "img/Godot_icon.svg.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 11:48:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/Godot_icon.svg.q9me1j3371.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 11:48:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q9me1j3371"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Godot_icon.svg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/html.jziny2oo4h.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:35:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jziny2oo4h"
+        },
+        {
+          "Name": "label",
+          "Value": "img/html.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY="
+        }
+      ]
+    },
+    {
+      "Route": "img/html.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 11:35:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY="
+        }
+      ]
+    },
+    {
+      "Route": "img/unity.f3bx447a76.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 12:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3bx447a76"
+        },
+        {
+          "Name": "label",
+          "Value": "img/unity.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc="
+        }
+      ]
+    },
+    {
+      "Route": "img/unity.png",
+      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 12:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc="
+        }
+      ]
+    }
+  ]
+}
