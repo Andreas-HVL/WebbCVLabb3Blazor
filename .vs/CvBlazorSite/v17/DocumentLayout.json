@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\cvblazorsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\cvblazorsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\components\\addcompetencydialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\components\\addcompetencydialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|c:\\users\\hijaker\\onedrive\\documents\\github\\iths-webbutveckling-labb3-blazor\\cvblazorsite\\cvblazorsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88FD196B-11C2-436C-A327-9E46D148B782}|CvBlazorSite\\CvBlazorSite.csproj|solutionrelative:cvblazorsite\\cvblazorsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\Components\\ProjectCard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -29,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,20 +89,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "CvBlazorSite\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\Routes.razor",
+              "RelativeToolTip": "CvBlazorSite\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T09:19:26.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCompetencyDialog.razor",
+              "DocumentMoniker": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\AddCompetencyDialog.razor",
+              "RelativeDocumentMoniker": "CvBlazorSite\\Components\\AddCompetencyDialog.razor",
+              "ToolTip": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\AddCompetencyDialog.razor",
+              "RelativeToolTip": "CvBlazorSite\\Components\\AddCompetencyDialog.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T08:55:24.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "CvBlazorSite\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "CvBlazorSite\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-26T13:15:00.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CvBlazorSite.csproj",
               "DocumentMoniker": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\CvBlazorSite.csproj",
               "RelativeDocumentMoniker": "CvBlazorSite\\CvBlazorSite.csproj",
@@ -106,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProjectCard.razor",
               "DocumentMoniker": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\Components\\ProjectCard.razor",
               "ToolTip": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\Components\\ProjectCard.razor",
@@ -116,15 +150,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Program.cs",
               "RelativeDocumentMoniker": "CvBlazorSite\\Program.cs",
               "ToolTip": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\Program.cs",
               "RelativeToolTip": "CvBlazorSite\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAACPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:04:26.352Z"
+              "WhenOpened": "2025-02-26T13:04:26.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,7 +171,8 @@
               "RelativeToolTip": "CvBlazorSite\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T14:05:02.57Z"
+              "WhenOpened": "2025-02-20T14:05:02.57Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,6 +1,4 @@
 using CvBlazorSite.Components;
-using CvBlazorSite.Components.Account;
-using CvBlazorSite.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -22,9 +20,6 @@ namespace CvBlazorSite
                 .AddInteractiveServerComponents();
 
             builder.Services.AddCascadingAuthenticationState();
-            builder.Services.AddScoped<IdentityUserAccessor>();
-            builder.Services.AddScoped<IdentityRedirectManager>();
-            builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
 
             builder.Services.AddAuthentication(options =>
                 {
@@ -33,21 +28,9 @@ namespace CvBlazorSite
                 })
                 .AddIdentityCookies();
 
-            var connectionString = Environment.GetEnvironmentVariable("CvDbConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
-            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-            builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddSignInManager()
-                .AddDefaultTokenProviders();
-
-            builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
-
+           
             //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(Environment.GetEnvironmentVariable("WebApiConnection")) });
-            builder.Services.AddHttpClient("CvAPI", client => client.BaseAddress = new Uri(Environment.GetEnvironmentVariable("WebApiConnection")));
+            builder.Services.AddHttpClient("CvAPI", client => client.BaseAddress = new Uri(Environment.GetEnvironmentVariable("WEB_API_CONNECTION")));
             builder.Services.AddHttpClient("ProductsAPI", client => client.BaseAddress = new Uri(Environment.GetEnvironmentVariable("ProductConnection")));
             
             
@@ -72,9 +55,6 @@ namespace CvBlazorSite
 
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
-
-            // Add additional endpoints required by the Identity /Account Razor components.
-            app.MapAdditionalIdentityEndpoints();
 
             app.Run();
         }

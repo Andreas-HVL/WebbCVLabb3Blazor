@@ -1,0 +1,5 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\img\blazor-logo.png
+wwwroot\img\C Sharp logo.svg
+wwwroot\img\html.png

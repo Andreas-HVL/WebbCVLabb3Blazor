@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n0GvVrL5m5V07ROY5Q1fMzeb2tPSgGZKRXYk94Y7I84=",
+  "Hash": "DzaEkRS+Sr8XN8yvc5M7t0mHawgzewDlFdZljuxc6qM=",
   "Source": "CvBlazorSite",
   "BasePath": "_content/CvBlazorSite",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CvBlazorSite\\wwwroot",
       "Source": "CvBlazorSite",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
+      "Identity": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
       "SourceId": "BlazorAnimation",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
       "BasePath": "_content/BlazorAnimation",
       "RelativePath": "animate.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "qbO919CAYK4kRxWDRW3CehclkGcaxvcdMilLG4sKVe8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css"
+      "OriginalItemSpec": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
+      "Identity": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
       "SourceId": "BlazorAnimation",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\",
       "BasePath": "_content/BlazorAnimation",
       "RelativePath": "blazorAnimationInterop.js",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "+t/o5a1+4WbQxhoZypQHhvyATOlNrCBf5wRvVZ3/lrU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js"
     },
     {
-      "Identity": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "Identity": "C:\\Users\\Hijaker\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
       "SourceId": "Extensions.MudBlazor.StaticInput",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\",
       "BasePath": "_content/Extensions.MudBlazor.StaticInput",
       "RelativePath": "NavigationObserver.js",
       "AssetKind": "All",
@@ -77,13 +77,13 @@
       "Integrity": "rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g=",
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js"
+      "OriginalItemSpec": "C:\\Users\\Hijaker\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js"
     },
     {
-      "Identity": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -119,13 +119,13 @@
       "Integrity": "geXX14pnDwFT+yUxYoAOx7xU4GLnDCWwzb6rVTWgXKo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\css\\site.css",
       "SourceId": "CvBlazorSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\favicon.ico",
       "SourceId": "CvBlazorSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "Identity": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
       "SourceId": "CvBlazorSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "RelativePath": "img/blazor-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blazor-logo.png"
     },
     {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "Identity": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
       "SourceId": "CvBlazorSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "RelativePath": "img/C Sharp logo#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -206,31 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\C Sharp logo.svg"
     },
     {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
+      "Identity": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\html.png",
       "SourceId": "CvBlazorSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
-      "BasePath": "_content/CvBlazorSite",
-      "RelativePath": "img/Godot_icon.svg#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "q9me1j3371",
-      "Integrity": "wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=",
-      "CopyToOutputDirectory": "Always",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Godot_icon.svg.png"
-    },
-    {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
-      "SourceId": "CvBlazorSite",
-      "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\",
       "BasePath": "_content/CvBlazorSite",
       "RelativePath": "img/html#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -246,33 +225,12 @@
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\html.png"
-    },
-    {
-      "Identity": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
-      "SourceId": "CvBlazorSite",
-      "SourceType": "Discovered",
-      "ContentRoot": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\",
-      "BasePath": "_content/CvBlazorSite",
-      "RelativePath": "img/unity#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f3bx447a76",
-      "Integrity": "a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=",
-      "CopyToOutputDirectory": "Always",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\unity.png"
     }
   ],
   "Endpoints": [
     {
       "Route": "_content/BlazorAnimation/animate.css",
-      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
+      "AssetFile": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\animate.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -309,7 +267,7 @@
     },
     {
       "Route": "_content/BlazorAnimation/blazorAnimationInterop.js",
-      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
+      "AssetFile": "C:\\Users\\Hijaker\\.nuget\\packages\\blazoranimation\\2.2.0\\staticwebassets\\blazorAnimationInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -346,7 +304,7 @@
     },
     {
       "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
-      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "AssetFile": "C:\\Users\\Hijaker\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -383,7 +341,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -420,7 +378,7 @@
     },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\victo\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\Hijaker\\.nuget\\packages\\mudblazor\\7.16.0\\staticwebassets\\MudBlazor.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -457,7 +415,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -478,7 +436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:54:05 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -494,7 +452,7 @@
     },
     {
       "Route": "css/site.jzmkn5vn8t.css",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -515,7 +473,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:54:05 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -539,7 +497,7 @@
     },
     {
       "Route": "favicon.2jeq8efc6q.ico",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -560,7 +518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 14:04:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -584,7 +542,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -605,7 +563,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 14:04:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -621,7 +579,7 @@
     },
     {
       "Route": "img/blazor-logo.ktvuh5jcvm.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -642,7 +600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:36:10 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -666,7 +624,7 @@
     },
     {
       "Route": "img/blazor-logo.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\blazor-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -687,7 +645,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:36:10 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -703,7 +661,7 @@
     },
     {
       "Route": "img/C Sharp logo.svg",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -724,7 +682,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Feb 2023 13:58:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -740,7 +698,7 @@
     },
     {
       "Route": "img/C Sharp logo.z7475iq4mv.svg",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\C Sharp logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -761,7 +719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Feb 2023 13:58:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -784,90 +742,8 @@
       ]
     },
     {
-      "Route": "img/Godot_icon.svg.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "102348"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 11:48:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/Godot_icon.svg.q9me1j3371.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\Godot_icon.svg.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "102348"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 11:48:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q9me1j3371"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Godot_icon.svg.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wtreHimJK4vNLcN/eB+7eO0vZNNEmbiaWYN0tROPyyQ="
-        }
-      ]
-    },
-    {
       "Route": "img/html.jziny2oo4h.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\html.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -888,7 +764,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:35:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -912,7 +788,7 @@
     },
     {
       "Route": "img/html.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\html.png",
+      "AssetFile": "C:\\Users\\Hijaker\\OneDrive\\Documents\\GitHub\\ITHS-Webbutveckling-Labb3-Blazor\\CvBlazorSite\\wwwroot\\img\\html.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -933,7 +809,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 11:35:48 GMT"
+          "Value": "Wed, 07 May 2025 07:57:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -944,88 +820,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-IRbrqBqcaaa1FctB7NlyMkOVImTItOqZ22lnDxnNDUY="
-        }
-      ]
-    },
-    {
-      "Route": "img/unity.f3bx447a76.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 12:19:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f3bx447a76"
-        },
-        {
-          "Name": "label",
-          "Value": "img/unity.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc="
-        }
-      ]
-    },
-    {
-      "Route": "img/unity.png",
-      "AssetFile": "V:\\cSharp\\ITHS\\Webbutveckling\\Labb 3\\CvBlazorSite\\CvBlazorSite\\wwwroot\\img\\unity.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 12:19:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-a7qfDt6hm+00/omhz4kj8P44YY+7vw91wjcfQMidKzc="
         }
       ]
     }
